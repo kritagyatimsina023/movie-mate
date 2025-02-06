@@ -75,7 +75,7 @@ export const Moviedetail = () => {
                   href={`https://www.imdb.com/title/${data.imdb_id}/`}
                   className="font-bold"
                   target="_blank"
-                  rel="no"
+                  rel="noreferrer"
                 >
                   IMDB Code:
                 </a>{" "}
