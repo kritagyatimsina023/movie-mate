@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import Logo from "../assets/logo.png";
 
 export const Card = ({ movie }) => {
-  const { id, original_title, title, backdrop_path, overview } = movie;
+  const { id, title, backdrop_path, overview } = movie;
   const img = backdrop_path
     ? `https://image.tmdb.org/t/p/w500/${backdrop_path}`
     : Logo;
